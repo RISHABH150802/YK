@@ -29,7 +29,7 @@
 
 		<tr>
 <?php
-	$conn = mysqli_connect("localhost:3307","root","","ex");
+	$conn = mysqli_connect("localhost:3306","root","","ex");
 
 	$qes="Select * from master;";
 	$qry=$conn->query($qes);
